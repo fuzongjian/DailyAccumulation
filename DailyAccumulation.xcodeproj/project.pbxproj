@@ -21,6 +21,8 @@
 		9BF365421D62F4A6008B290D /* UIViewController+PopPresent.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF365401D62F4A6008B290D /* UIViewController+PopPresent.m */; };
 		9BF365491D63EAED008B290D /* PasswordController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF365481D63EAED008B290D /* PasswordController.m */; };
 		9BF3654C1D63EB7A008B290D /* PasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF3654B1D63EB7A008B290D /* PasswordView.m */; };
+		9BF365501D63FE7F008B290D /* DragBoxController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF3654F1D63FE7F008B290D /* DragBoxController.m */; };
+		9BF365531D63FE9A008B290D /* BoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF365521D63FE9A008B290D /* BoxView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +73,10 @@
 		9BF365481D63EAED008B290D /* PasswordController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordController.m; sourceTree = "<group>"; };
 		9BF3654A1D63EB7A008B290D /* PasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordView.h; sourceTree = "<group>"; };
 		9BF3654B1D63EB7A008B290D /* PasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordView.m; sourceTree = "<group>"; };
+		9BF3654E1D63FE7F008B290D /* DragBoxController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragBoxController.h; sourceTree = "<group>"; };
+		9BF3654F1D63FE7F008B290D /* DragBoxController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragBoxController.m; sourceTree = "<group>"; };
+		9BF365511D63FE9A008B290D /* BoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoxView.h; sourceTree = "<group>"; };
+		9BF365521D63FE9A008B290D /* BoxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoxView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +193,7 @@
 			children = (
 				9BF365321D62B7CB008B290D /* Pop_Present动画 */,
 				9BF365461D63EAB3008B290D /* 仿微信支付密码输入 */,
+				9BF3654D1D63FE15008B290D /* 九宫格拖拽 */,
 			);
 			path = DayByDay;
 			sourceTree = "<group>";
@@ -236,6 +243,17 @@
 				9BF3654B1D63EB7A008B290D /* PasswordView.m */,
 			);
 			path = "仿微信支付密码输入";
+			sourceTree = "<group>";
+		};
+		9BF3654D1D63FE15008B290D /* 九宫格拖拽 */ = {
+			isa = PBXGroup;
+			children = (
+				9BF3654E1D63FE7F008B290D /* DragBoxController.h */,
+				9BF3654F1D63FE7F008B290D /* DragBoxController.m */,
+				9BF365511D63FE9A008B290D /* BoxView.h */,
+				9BF365521D63FE9A008B290D /* BoxView.m */,
+			);
+			path = "九宫格拖拽";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -368,11 +386,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BF365531D63FE9A008B290D /* BoxView.m in Sources */,
 				9BF364F11D62B20A008B290D /* AppDelegate.m in Sources */,
 				9BF364EE1D62B20A008B290D /* main.m in Sources */,
 				9BF3654C1D63EB7A008B290D /* PasswordView.m in Sources */,
 				9BF365411D62F4A6008B290D /* UINavigationController+PopPresent.m in Sources */,
 				9BF3652C1D62B322008B290D /* RootViewController.m in Sources */,
+				9BF365501D63FE7F008B290D /* DragBoxController.m in Sources */,
 				9BF365421D62F4A6008B290D /* UIViewController+PopPresent.m in Sources */,
 				9BF365351D62B7E9008B290D /* PopPresentController.m in Sources */,
 				9BF365491D63EAED008B290D /* PasswordController.m in Sources */,
