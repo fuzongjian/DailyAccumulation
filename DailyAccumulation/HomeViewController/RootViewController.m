@@ -16,8 +16,8 @@
 @implementation RootViewController
 - (void)viewDidLoad{
     [super viewDidLoad];
-    self.titleArray = [NSArray arrayWithObjects:@"pop_Present动画",@"微信支付密码输入",@"九宫格拖拽", nil];
-    self.controllersArray = [NSArray arrayWithObjects:@"PopPresentController", @"PasswordController",@"DragBoxController",nil];
+    self.titleArray = [NSArray arrayWithObjects:@"pop_Present动画",@"微信支付密码输入",@"九宫格拖拽",@"省市区联动", @"夜间模式",nil];
+    self.controllersArray = [NSArray arrayWithObjects:@"PopPresentController", @"PasswordController",@"DragBoxController",@"AreaPickerController",@"NightModeController",nil];
     [self.view addSubview:self.tableView];
     
 }

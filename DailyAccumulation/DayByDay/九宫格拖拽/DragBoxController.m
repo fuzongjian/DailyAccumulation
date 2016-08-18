@@ -22,6 +22,7 @@
     [self configDragBoxControllerUI];
 }
 - (void)configDragBoxControllerUI{
+    
 //    [self.navigationController.navigationBar setBarTintColor:[UIColor colorWithRed:0.400 green:0.800 blue:1.000 alpha:1.000]];
 //    // 标题字体和颜色
 //    NSDictionary *attributes = [NSDictionary dictionaryWithObjectsAndKeys:
@@ -29,6 +30,7 @@
 //                                [UIFont boldSystemFontOfSize:21], NSFontAttributeName,
 //                                nil];
 //    [self.navigationController.navigationBar setTitleTextAttributes:attributes];
+    
     self.view.backgroundColor = [UIColor colorWithWhite:.9 alpha:1.];
     self.contentArray = [NSArray arrayWithObjects:@"求",@"知",@"若",@"渴",@"，",@"虚",@"怀",@"若",@"谷",@"。", nil];
     [self configBoxViewUI];

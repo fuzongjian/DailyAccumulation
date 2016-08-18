@@ -23,6 +23,10 @@
 		9BF3654C1D63EB7A008B290D /* PasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF3654B1D63EB7A008B290D /* PasswordView.m */; };
 		9BF365501D63FE7F008B290D /* DragBoxController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF3654F1D63FE7F008B290D /* DragBoxController.m */; };
 		9BF365531D63FE9A008B290D /* BoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF365521D63FE9A008B290D /* BoxView.m */; };
+		9BF3655A1D653F7C008B290D /* AreaPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF365591D653F7C008B290D /* AreaPickerController.m */; };
+		9BF3655D1D653F99008B290D /* AreaPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF3655C1D653F99008B290D /* AreaPickerView.m */; };
+		9BF3655F1D654666008B290D /* area.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9BF3655E1D654666008B290D /* area.plist */; };
+		9BF365631D6559CA008B290D /* NightModeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF365621D6559CA008B290D /* NightModeController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +81,13 @@
 		9BF3654F1D63FE7F008B290D /* DragBoxController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragBoxController.m; sourceTree = "<group>"; };
 		9BF365511D63FE9A008B290D /* BoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoxView.h; sourceTree = "<group>"; };
 		9BF365521D63FE9A008B290D /* BoxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoxView.m; sourceTree = "<group>"; };
+		9BF365581D653F7C008B290D /* AreaPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AreaPickerController.h; sourceTree = "<group>"; };
+		9BF365591D653F7C008B290D /* AreaPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AreaPickerController.m; sourceTree = "<group>"; };
+		9BF3655B1D653F99008B290D /* AreaPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AreaPickerView.h; sourceTree = "<group>"; };
+		9BF3655C1D653F99008B290D /* AreaPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AreaPickerView.m; sourceTree = "<group>"; };
+		9BF3655E1D654666008B290D /* area.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = area.plist; sourceTree = "<group>"; };
+		9BF365611D6559CA008B290D /* NightModeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NightModeController.h; sourceTree = "<group>"; };
+		9BF365621D6559CA008B290D /* NightModeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NightModeController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,6 +205,8 @@
 				9BF365321D62B7CB008B290D /* Pop_Present动画 */,
 				9BF365461D63EAB3008B290D /* 仿微信支付密码输入 */,
 				9BF3654D1D63FE15008B290D /* 九宫格拖拽 */,
+				9BF365571D653F40008B290D /* 省市区联动 */,
+				9BF365601D655998008B290D /* 夜间模式 */,
 			);
 			path = DayByDay;
 			sourceTree = "<group>";
@@ -254,6 +267,27 @@
 				9BF365521D63FE9A008B290D /* BoxView.m */,
 			);
 			path = "九宫格拖拽";
+			sourceTree = "<group>";
+		};
+		9BF365571D653F40008B290D /* 省市区联动 */ = {
+			isa = PBXGroup;
+			children = (
+				9BF365581D653F7C008B290D /* AreaPickerController.h */,
+				9BF365591D653F7C008B290D /* AreaPickerController.m */,
+				9BF3655B1D653F99008B290D /* AreaPickerView.h */,
+				9BF3655C1D653F99008B290D /* AreaPickerView.m */,
+				9BF3655E1D654666008B290D /* area.plist */,
+			);
+			path = "省市区联动";
+			sourceTree = "<group>";
+		};
+		9BF365601D655998008B290D /* 夜间模式 */ = {
+			isa = PBXGroup;
+			children = (
+				9BF365611D6559CA008B290D /* NightModeController.h */,
+				9BF365621D6559CA008B290D /* NightModeController.m */,
+			);
+			path = "夜间模式";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -360,6 +394,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BF364FC1D62B20A008B290D /* LaunchScreen.storyboard in Resources */,
+				9BF3655F1D654666008B290D /* area.plist in Resources */,
 				9BF364F91D62B20A008B290D /* Assets.xcassets in Resources */,
 				9BF364F71D62B20A008B290D /* Main.storyboard in Resources */,
 			);
@@ -389,13 +424,16 @@
 				9BF365531D63FE9A008B290D /* BoxView.m in Sources */,
 				9BF364F11D62B20A008B290D /* AppDelegate.m in Sources */,
 				9BF364EE1D62B20A008B290D /* main.m in Sources */,
+				9BF365631D6559CA008B290D /* NightModeController.m in Sources */,
 				9BF3654C1D63EB7A008B290D /* PasswordView.m in Sources */,
+				9BF3655A1D653F7C008B290D /* AreaPickerController.m in Sources */,
 				9BF365411D62F4A6008B290D /* UINavigationController+PopPresent.m in Sources */,
 				9BF3652C1D62B322008B290D /* RootViewController.m in Sources */,
 				9BF365501D63FE7F008B290D /* DragBoxController.m in Sources */,
 				9BF365421D62F4A6008B290D /* UIViewController+PopPresent.m in Sources */,
 				9BF365351D62B7E9008B290D /* PopPresentController.m in Sources */,
 				9BF365491D63EAED008B290D /* PasswordController.m in Sources */,
+				9BF3655D1D653F99008B290D /* AreaPickerView.m in Sources */,
 				9BF365231D62B28E008B290D /* SuperViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
