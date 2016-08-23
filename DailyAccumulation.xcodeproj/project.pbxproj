@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B63A6491D65901A0004AD08 /* CarouselAdvertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B63A6481D65901A0004AD08 /* CarouselAdvertController.m */; };
+		9B63A64C1D6590850004AD08 /* AdvertScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B63A64B1D6590850004AD08 /* AdvertScrollView.m */; };
+		9B8F95AB1D6A8E8E008C5024 /* CustomFontController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8F95AA1D6A8E8E008C5024 /* CustomFontController.m */; };
+		9B8F95B01D6A9385008C5024 /* YuppySC-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9B8F95AF1D6A9385008C5024 /* YuppySC-Regular.otf */; };
+		9B8F95B21D6A9AEC008C5024 /* WawaTC-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9B8F95B11D6A9AEC008C5024 /* WawaTC-Regular.otf */; };
+		9B8F95B41D6A9E1C008C5024 /* Chalkduster.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B8F95B31D6A9E1C008C5024 /* Chalkduster.ttf */; };
+		9B8F95B81D6BD9D8008C5024 /* weakStrongController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8F95B71D6BD9D8008C5024 /* weakStrongController.m */; };
+		9B8F95BB1D6BDF59008C5024 /* weakStrongModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8F95BA1D6BDF59008C5024 /* weakStrongModel.m */; };
+		9B8F95BF1D6BE1F3008C5024 /* TextViewFiledController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8F95BE1D6BE1F3008C5024 /* TextViewFiledController.m */; };
+		9B8F95C51D6BE98D008C5024 /* TextViewPlaceholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8F95C41D6BE98D008C5024 /* TextViewPlaceholder.m */; };
+		9B8F95C91D6BF259008C5024 /* CommonManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8F95C81D6BF259008C5024 /* CommonManager.m */; };
 		9BF364EE1D62B20A008B290D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF364ED1D62B20A008B290D /* main.m */; };
 		9BF364F11D62B20A008B290D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF364F01D62B20A008B290D /* AppDelegate.m */; };
 		9BF364F71D62B20A008B290D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BF364F51D62B20A008B290D /* Main.storyboard */; };
@@ -47,6 +58,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9B63A6471D65901A0004AD08 /* CarouselAdvertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarouselAdvertController.h; sourceTree = "<group>"; };
+		9B63A6481D65901A0004AD08 /* CarouselAdvertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarouselAdvertController.m; sourceTree = "<group>"; };
+		9B63A64A1D6590850004AD08 /* AdvertScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvertScrollView.h; sourceTree = "<group>"; };
+		9B63A64B1D6590850004AD08 /* AdvertScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvertScrollView.m; sourceTree = "<group>"; };
+		9B8F95A91D6A8E8E008C5024 /* CustomFontController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomFontController.h; sourceTree = "<group>"; };
+		9B8F95AA1D6A8E8E008C5024 /* CustomFontController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomFontController.m; sourceTree = "<group>"; };
+		9B8F95AF1D6A9385008C5024 /* YuppySC-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "YuppySC-Regular.otf"; sourceTree = "<group>"; };
+		9B8F95B11D6A9AEC008C5024 /* WawaTC-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WawaTC-Regular.otf"; sourceTree = "<group>"; };
+		9B8F95B31D6A9E1C008C5024 /* Chalkduster.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Chalkduster.ttf; sourceTree = "<group>"; };
+		9B8F95B61D6BD9D8008C5024 /* weakStrongController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = weakStrongController.h; sourceTree = "<group>"; };
+		9B8F95B71D6BD9D8008C5024 /* weakStrongController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = weakStrongController.m; sourceTree = "<group>"; };
+		9B8F95B91D6BDF59008C5024 /* weakStrongModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = weakStrongModel.h; sourceTree = "<group>"; };
+		9B8F95BA1D6BDF59008C5024 /* weakStrongModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = weakStrongModel.m; sourceTree = "<group>"; };
+		9B8F95BD1D6BE1F3008C5024 /* TextViewFiledController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextViewFiledController.h; sourceTree = "<group>"; };
+		9B8F95BE1D6BE1F3008C5024 /* TextViewFiledController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextViewFiledController.m; sourceTree = "<group>"; };
+		9B8F95C31D6BE98D008C5024 /* TextViewPlaceholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextViewPlaceholder.h; sourceTree = "<group>"; };
+		9B8F95C41D6BE98D008C5024 /* TextViewPlaceholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextViewPlaceholder.m; sourceTree = "<group>"; };
+		9B8F95C61D6BF1B9008C5024 /* ConfigGlobal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConfigGlobal.h; sourceTree = "<group>"; };
+		9B8F95C71D6BF259008C5024 /* CommonManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonManager.h; sourceTree = "<group>"; };
+		9B8F95C81D6BF259008C5024 /* CommonManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonManager.m; sourceTree = "<group>"; };
 		9BF364E91D62B20A008B290D /* DailyAccumulation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyAccumulation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BF364ED1D62B20A008B290D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9BF364EF1D62B20A008B290D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -115,6 +146,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B63A6461D658FE50004AD08 /* 广告轮播 */ = {
+			isa = PBXGroup;
+			children = (
+				9B63A6471D65901A0004AD08 /* CarouselAdvertController.h */,
+				9B63A6481D65901A0004AD08 /* CarouselAdvertController.m */,
+				9B63A64A1D6590850004AD08 /* AdvertScrollView.h */,
+				9B63A64B1D6590850004AD08 /* AdvertScrollView.m */,
+			);
+			path = "广告轮播";
+			sourceTree = "<group>";
+		};
+		9B8F95A81D6A8E72008C5024 /* 自定义字体 */ = {
+			isa = PBXGroup;
+			children = (
+				9B8F95A91D6A8E8E008C5024 /* CustomFontController.h */,
+				9B8F95AA1D6A8E8E008C5024 /* CustomFontController.m */,
+				9B8F95AF1D6A9385008C5024 /* YuppySC-Regular.otf */,
+				9B8F95B11D6A9AEC008C5024 /* WawaTC-Regular.otf */,
+				9B8F95B31D6A9E1C008C5024 /* Chalkduster.ttf */,
+			);
+			path = "自定义字体";
+			sourceTree = "<group>";
+		};
+		9B8F95B51D6BD994008C5024 /* weakSelf与strongSelf */ = {
+			isa = PBXGroup;
+			children = (
+				9B8F95B61D6BD9D8008C5024 /* weakStrongController.h */,
+				9B8F95B71D6BD9D8008C5024 /* weakStrongController.m */,
+				9B8F95B91D6BDF59008C5024 /* weakStrongModel.h */,
+				9B8F95BA1D6BDF59008C5024 /* weakStrongModel.m */,
+			);
+			path = "weakSelf与strongSelf";
+			sourceTree = "<group>";
+		};
+		9B8F95BC1D6BE141008C5024 /* UITextFiled与UITextView占位符 */ = {
+			isa = PBXGroup;
+			children = (
+				9B8F95BD1D6BE1F3008C5024 /* TextViewFiledController.h */,
+				9B8F95BE1D6BE1F3008C5024 /* TextViewFiledController.m */,
+				9B8F95C31D6BE98D008C5024 /* TextViewPlaceholder.h */,
+				9B8F95C41D6BE98D008C5024 /* TextViewPlaceholder.m */,
+			);
+			path = "UITextFiled与UITextView占位符";
+			sourceTree = "<group>";
+		};
 		9BF364E01D62B20A008B290D = {
 			isa = PBXGroup;
 			children = (
@@ -184,6 +260,9 @@
 			isa = PBXGroup;
 			children = (
 				9BF3652D1D62B35B008B290D /* DailyAccumulation.pch */,
+				9B8F95C61D6BF1B9008C5024 /* ConfigGlobal.h */,
+				9B8F95C71D6BF259008C5024 /* CommonManager.h */,
+				9B8F95C81D6BF259008C5024 /* CommonManager.m */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -207,6 +286,10 @@
 				9BF3654D1D63FE15008B290D /* 九宫格拖拽 */,
 				9BF365571D653F40008B290D /* 省市区联动 */,
 				9BF365601D655998008B290D /* 夜间模式 */,
+				9B63A6461D658FE50004AD08 /* 广告轮播 */,
+				9B8F95A81D6A8E72008C5024 /* 自定义字体 */,
+				9B8F95B51D6BD994008C5024 /* weakSelf与strongSelf */,
+				9B8F95BC1D6BE141008C5024 /* UITextFiled与UITextView占位符 */,
 			);
 			path = DayByDay;
 			sourceTree = "<group>";
@@ -395,8 +478,11 @@
 			files = (
 				9BF364FC1D62B20A008B290D /* LaunchScreen.storyboard in Resources */,
 				9BF3655F1D654666008B290D /* area.plist in Resources */,
+				9B8F95B21D6A9AEC008C5024 /* WawaTC-Regular.otf in Resources */,
 				9BF364F91D62B20A008B290D /* Assets.xcassets in Resources */,
 				9BF364F71D62B20A008B290D /* Main.storyboard in Resources */,
+				9B8F95B41D6A9E1C008C5024 /* Chalkduster.ttf in Resources */,
+				9B8F95B01D6A9385008C5024 /* YuppySC-Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,12 +513,20 @@
 				9BF365631D6559CA008B290D /* NightModeController.m in Sources */,
 				9BF3654C1D63EB7A008B290D /* PasswordView.m in Sources */,
 				9BF3655A1D653F7C008B290D /* AreaPickerController.m in Sources */,
+				9B8F95C51D6BE98D008C5024 /* TextViewPlaceholder.m in Sources */,
+				9B63A6491D65901A0004AD08 /* CarouselAdvertController.m in Sources */,
 				9BF365411D62F4A6008B290D /* UINavigationController+PopPresent.m in Sources */,
+				9B8F95BF1D6BE1F3008C5024 /* TextViewFiledController.m in Sources */,
 				9BF3652C1D62B322008B290D /* RootViewController.m in Sources */,
+				9B8F95AB1D6A8E8E008C5024 /* CustomFontController.m in Sources */,
+				9B8F95BB1D6BDF59008C5024 /* weakStrongModel.m in Sources */,
 				9BF365501D63FE7F008B290D /* DragBoxController.m in Sources */,
+				9B8F95C91D6BF259008C5024 /* CommonManager.m in Sources */,
 				9BF365421D62F4A6008B290D /* UIViewController+PopPresent.m in Sources */,
+				9B8F95B81D6BD9D8008C5024 /* weakStrongController.m in Sources */,
 				9BF365351D62B7E9008B290D /* PopPresentController.m in Sources */,
 				9BF365491D63EAED008B290D /* PasswordController.m in Sources */,
+				9B63A64C1D6590850004AD08 /* AdvertScrollView.m in Sources */,
 				9BF3655D1D653F99008B290D /* AreaPickerView.m in Sources */,
 				9BF365231D62B28E008B290D /* SuperViewController.m in Sources */,
 			);

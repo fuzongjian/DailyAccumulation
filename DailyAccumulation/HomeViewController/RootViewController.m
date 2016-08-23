@@ -16,10 +16,19 @@
 @implementation RootViewController
 - (void)viewDidLoad{
     [super viewDidLoad];
-    self.titleArray = [NSArray arrayWithObjects:@"pop_Present动画",@"微信支付密码输入",@"九宫格拖拽",@"省市区联动", @"夜间模式",nil];
-    self.controllersArray = [NSArray arrayWithObjects:@"PopPresentController", @"PasswordController",@"DragBoxController",@"AreaPickerController",@"NightModeController",nil];
-    [self.view addSubview:self.tableView];
+    [self configRootViewControllerUI];
+}
+- (void)configRootViewControllerUI{
     
+    [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"navigationBarBG"] forBarPosition:UIBarPositionAny barMetrics:UIBarMetricsDefault];
+    //标题字体和颜色
+    NSDictionary * attributes = [NSDictionary dictionaryWithObjectsAndKeys:[UIColor whiteColor],NSForegroundColorAttributeName,[UIFont boldSystemFontOfSize:20],NSFontAttributeName, nil];
+    [self.navigationController.navigationBar setTitleTextAttributes:attributes];
+    
+    
+    self.titleArray = [NSArray arrayWithObjects:@"pop_Present动画",@"微信支付密码输入",@"九宫格拖拽",@"省市区联动", @"夜间模式",@"自定义字体",@"weakSelf与strongSelf",@"UITextFiled与UITextView占位符",nil];
+    self.controllersArray = [NSArray arrayWithObjects:@"PopPresentController", @"PasswordController",@"DragBoxController",@"AreaPickerController",@"NightModeController",@"CustomFontController",@"weakStrongController",@"TextViewFiledController",nil];
+    [self.view addSubview:self.tableView];
 }
 #pragma mark --- UITableView delegate
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{

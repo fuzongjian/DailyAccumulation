@@ -60,7 +60,7 @@
 }
 #pragma mark --- BoxView delegate
 - (void)boxView:(BoxView *)boxView didSelectedIndexTag:(NSInteger)indexTag{
-    NSLog(@"选中了第%d个格子",indexTag - PREFIX_TAG);
+    NSLog(@"选中了第%zd个格子",indexTag - PREFIX_TAG);
 }
 - (void)boxView:(BoxView *)boxView beginMoveIndexTag:(NSInteger)indexTag{
     [self.contentScroll bringSubviewToFront:boxView];
@@ -78,7 +78,7 @@
     //跟随手势移动
     boxView.center = CGPointMake(boxView.center.x + moveX - BOX_WIDTH / 2, boxView.center.y + moveY - BOX_WIDTH / 2);
     //目标位置
-    NSInteger (^getToTag)(void) = ^{
+    int (^getToTag)(void) = ^{
         for (int i = 0; i < self.boxViewArray.count; i ++) {
             UIView * view = [self.boxViewArray objectAtIndex:i];
             if ((view != boxView) && (CGRectContainsPoint(view.frame, boxView.center))){
