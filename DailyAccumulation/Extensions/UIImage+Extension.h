@@ -11,4 +11,5 @@
 @interface UIImage (Extension)
 + (UIImage *)imageWithColor:(UIColor *)color;
 - (UIImage *)imageCornerRadius:(CGFloat)radius andSize:(CGSize)size;
+- (UIImage *)imageWithColor:(UIColor *)color;
 @end

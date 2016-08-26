@@ -8,5 +8,11 @@
 		<key>name</key>
 		<string>WeiboPopController</string>
 	</dict>
+	<dict>
+		<key>title</key>
+		<string>点赞动画</string>
+		<key>name</key>
+		<string>PraiseController</string>
+	</dict>
 </array>
 </plist>

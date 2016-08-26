@@ -41,6 +41,8 @@
 		9B8F96DA1D702F40008C5024 /* TextViewPlaceholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8F96BF1D702F40008C5024 /* TextViewPlaceholder.m */; };
 		9B8F96DB1D702F40008C5024 /* weakStrongController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8F96C31D702F40008C5024 /* weakStrongController.m */; };
 		9B8F96DC1D702F40008C5024 /* weakStrongModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8F96C51D702F40008C5024 /* weakStrongModel.m */; };
+		9B8F96E01D703955008C5024 /* PraiseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8F96DF1D703955008C5024 /* PraiseController.m */; };
+		9B8F96E61D703B7A008C5024 /* PraiseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8F96E51D703B7A008C5024 /* PraiseButton.m */; };
 		9BF364EE1D62B20A008B290D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF364ED1D62B20A008B290D /* main.m */; };
 		9BF364F11D62B20A008B290D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF364F01D62B20A008B290D /* AppDelegate.m */; };
 		9BF364F71D62B20A008B290D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BF364F51D62B20A008B290D /* Main.storyboard */; };
@@ -134,6 +136,10 @@
 		9B8F96C31D702F40008C5024 /* weakStrongController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = weakStrongController.m; sourceTree = "<group>"; };
 		9B8F96C41D702F40008C5024 /* weakStrongModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = weakStrongModel.h; sourceTree = "<group>"; };
 		9B8F96C51D702F40008C5024 /* weakStrongModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = weakStrongModel.m; sourceTree = "<group>"; };
+		9B8F96DE1D703955008C5024 /* PraiseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PraiseController.h; sourceTree = "<group>"; };
+		9B8F96DF1D703955008C5024 /* PraiseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PraiseController.m; sourceTree = "<group>"; };
+		9B8F96E41D703B7A008C5024 /* PraiseButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PraiseButton.h; sourceTree = "<group>"; };
+		9B8F96E51D703B7A008C5024 /* PraiseButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PraiseButton.m; sourceTree = "<group>"; };
 		9BF364E91D62B20A008B290D /* DailyAccumulation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyAccumulation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BF364ED1D62B20A008B290D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9BF364EF1D62B20A008B290D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -199,6 +205,7 @@
 				9B8F967A1D6FC54E008C5024 /* AnimationController.h */,
 				9B8F967B1D6FC54E008C5024 /* AnimationController.m */,
 				9B8F967E1D6FC87F008C5024 /* 发微博弹出视图 */,
+				9B8F96DD1D703943008C5024 /* 点赞动画 */,
 			);
 			path = "动画集锦";
 			sourceTree = "<group>";
@@ -378,6 +385,17 @@
 			path = "weakSelf与strongSelf";
 			sourceTree = "<group>";
 		};
+		9B8F96DD1D703943008C5024 /* 点赞动画 */ = {
+			isa = PBXGroup;
+			children = (
+				9B8F96DE1D703955008C5024 /* PraiseController.h */,
+				9B8F96DF1D703955008C5024 /* PraiseController.m */,
+				9B8F96E41D703B7A008C5024 /* PraiseButton.h */,
+				9B8F96E51D703B7A008C5024 /* PraiseButton.m */,
+			);
+			path = "点赞动画";
+			sourceTree = "<group>";
+		};
 		9BF364E01D62B20A008B290D = {
 			isa = PBXGroup;
 			children = (
@@ -469,8 +487,8 @@
 		9BF3652F1D62B772008B290D /* DayByDay */ = {
 			isa = PBXGroup;
 			children = (
-				9B8F96791D6FC52A008C5024 /* 动画集锦 */,
 				9B8F967D1D6FC615008C5024 /* 常见功能集锦 */,
+				9B8F96791D6FC52A008C5024 /* 动画集锦 */,
 			);
 			path = DayByDay;
 			sourceTree = "<group>";
@@ -641,6 +659,7 @@
 				9B8F96C71D702F40008C5024 /* PasswordView.m in Sources */,
 				9B8F96D31D702F40008C5024 /* CustomFontController.m in Sources */,
 				9B8F96D11D702F40008C5024 /* NightModeController.m in Sources */,
+				9B8F96E61D703B7A008C5024 /* PraiseButton.m in Sources */,
 				9B8F96C81D702F40008C5024 /* CornerRadiusController.m in Sources */,
 				9B8F96DB1D702F40008C5024 /* weakStrongController.m in Sources */,
 				9B8F962B1D6EE10F008C5024 /* UIImageView+Extension.m in Sources */,
@@ -651,6 +670,7 @@
 				9B8F962E1D6EE1AA008C5024 /* UIImage+Extension.m in Sources */,
 				9B8F96C61D702F40008C5024 /* PasswordController.m in Sources */,
 				9B8F96CA1D702F40008C5024 /* CarouselAdvertController.m in Sources */,
+				9B8F96E01D703955008C5024 /* PraiseController.m in Sources */,
 				9B8F967C1D6FC54E008C5024 /* AnimationController.m in Sources */,
 				9B8F96DA1D702F40008C5024 /* TextViewPlaceholder.m in Sources */,
 				9B8F96C91D702F40008C5024 /* AdvertScrollView.m in Sources */,
