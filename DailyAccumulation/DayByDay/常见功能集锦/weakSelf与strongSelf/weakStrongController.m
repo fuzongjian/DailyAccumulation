@@ -8,7 +8,7 @@
 
 #import "weakStrongController.h"
 #import "weakStrongModel.h"
-#define weakSelf(type) __weak __typeof(type) weak##type = type;
+
 typedef void (^myBlock)(void);
 @interface weakStrongController ()
 @property (nonatomic,copy) myBlock blcok;

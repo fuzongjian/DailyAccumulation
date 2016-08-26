@@ -1,38 +1,34 @@
 //
-//  RootViewController.m
+//  CommonController.m
 //  DailyAccumulation
 //
-//  Created by 付宗建 on 16/8/16.
+//  Created by 付宗建 on 16/8/26.
 //  Copyright © 2016年 youran. All rights reserved.
 //
 
-#import "RootViewController.h"
+#import "CommonController.h"
 
-@interface RootViewController ()<UITableViewDelegate,UITableViewDataSource>
+@interface CommonController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic,strong) UITableView * tableView;
 @property (nonatomic,strong) NSArray * dataArray;
 @end
-@implementation RootViewController
-- (void)viewDidLoad{
+
+@implementation CommonController
+
+- (void)viewDidLoad {
     [super viewDidLoad];
-    [self configRootViewControllerUI];
+    // Do any additional setup after loading the view.
+    [self configCommonControllerUI];
 }
-- (void)configRootViewControllerUI{
-    
-    [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"navigationBarBG"] forBarPosition:UIBarPositionAny barMetrics:UIBarMetricsDefault];
-    //标题字体和颜色
-    NSDictionary * attributes = [NSDictionary dictionaryWithObjectsAndKeys:[UIColor whiteColor],NSForegroundColorAttributeName,[UIFont boldSystemFontOfSize:20],NSFontAttributeName, nil];
-    [self.navigationController.navigationBar setTitleTextAttributes:attributes];
-    
-    self.dataArray = [NSArray arrayWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"category" ofType:@"plist"]];
+- (void)configCommonControllerUI{
     [self.view addSubview:self.tableView];
 }
-#pragma mark --- UITableView delegate
+#pragma mark --- tableView delegate
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     return self.dataArray.count;
 }
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
-    static NSString * cellID = @"cell";
+    static NSString * cellID = @"cellid";
     UITableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:cellID];
     if (!cell) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellID];
@@ -50,12 +46,33 @@
 }
 - (UITableView *)tableView{
     if (_tableView == nil) {
-        _tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
+        _tableView= [[UITableView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT) style:UITableViewStylePlain];
         _tableView.delegate = self;
         _tableView.dataSource = self;
-        _tableView.rowHeight = 70;
+        _tableView.rowHeight = 50;
         _tableView.tableFooterView = [UIView new];
     }
     return _tableView;
 }
+- (NSArray *)dataArray{
+    if (_dataArray == nil) {
+        _dataArray = [NSArray arrayWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"common" ofType:@"plist"]];
+    }
+    return _dataArray;
+}
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+/*
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+}
+*/
+
 @end

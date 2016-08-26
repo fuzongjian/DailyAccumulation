@@ -11,8 +11,8 @@
 #import <UIKit/UIKit.h>
 #import "ConfigGlobal.h"
 #import "CommonManager.h"
-
-
+#import "UIView+Extension.h"
+#import "UIImage+Extension.h"
 
 #define NIGHTMODESTATE @"NightModeState"
 

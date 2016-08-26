@@ -38,6 +38,12 @@
 #else
 #define Log(...)
 #endif
+//弱引用、强引用
+#define weakSelf(type)  __weak typeof(type) weak##type = type;
+#define strongSelf(type)  __strong typeof(type) type = weak##type;
+
+
+
 
 
 #endif /* ConfigGlobal_h */

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>pop_Present动画</string>
+		<key>name</key>
+		<string>PopPresentController</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>微信支付密码输入</string>
+		<key>name</key>
+		<string>PasswordController</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>九宫格拖拽</string>
+		<key>name</key>
+		<string>DragBoxController</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>省市区联动</string>
+		<key>name</key>
+		<string>AreaPickerController</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>夜间模式</string>
+		<key>name</key>
+		<string>NightModeController</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>自定义字体</string>
+		<key>name</key>
+		<string>CustomFontController</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>weakSelf与strongSelf</string>
+		<key>name</key>
+		<string>weakStrongController</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>UITextFiled与UITextView占位符</string>
+		<key>name</key>
+		<string>TextViewFiledController</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>毛玻璃效果</string>
+		<key>name</key>
+		<string>BlurryController</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>高性能圆角</string>
+		<key>name</key>
+		<string>CornerRadiusController</string>
+	</dict>
+</array>
+</plist>

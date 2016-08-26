@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>CommonController</string>
+		<key>title</key>
+		<string>常见功能集锦</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>AnimationController</string>
+		<key>title</key>
+		<string>动画集锦</string>
+	</dict>
+</array>
+</plist>
