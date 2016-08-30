@@ -14,5 +14,11 @@
 		<key>title</key>
 		<string>动画集锦</string>
 	</dict>
+	<dict>
+		<key>name</key>
+		<string>ChartRootController</string>
+		<key>title</key>
+		<string>图表集锦</string>
+	</dict>
 </array>
 </plist>

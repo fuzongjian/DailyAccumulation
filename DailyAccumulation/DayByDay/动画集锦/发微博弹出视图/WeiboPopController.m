@@ -48,6 +48,7 @@
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 - (void)customMenuDidTapOnItem:(MenuItem *)item{
+    NSLog(@"%@",item.title);
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 - (UIButton *)popButton{

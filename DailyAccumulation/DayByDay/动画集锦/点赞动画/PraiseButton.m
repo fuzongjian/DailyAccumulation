@@ -27,13 +27,15 @@
 @property (nonatomic,assign) NSInteger  defaultCount;
 @property (nonatomic,strong) UILabel * countLable;
 @property (nonatomic,strong) UIImageView * thumbImageView;
+@property (nonatomic,assign) BOOL selectedState;
 @end
 @implementation PraiseButton
-- (instancetype)initWithFrame:(CGRect)frame normalImage:(UIImage *)norImage selectedImage:(UIImage *)selImage defaultCount:(NSInteger)defCount{
+- (instancetype)initWithFrame:(CGRect)frame normalImage:(UIImage *)norImage selectedImage:(UIImage *)selImage defaultCount:(NSInteger)defCount defaultSelected:(BOOL)state{
     if (self = [super initWithFrame:frame]) {
         self.defaultImage = norImage;
         self.selectedImage = selImage;
         self.defaultCount = defCount;
+        self.selectedState = state;
         [self configPraiseButtonUI];
     }
     return self;
@@ -48,7 +50,11 @@
     [self addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapGestureClicked:)]];
 }
 - (void)tapGestureClicked:(UITapGestureRecognizer *)gesture{
-    
+    self.selectedState = !self.selectedState;
+    self.countLable.text = [NSString stringWithFormat:@"%zd",self.defaultCount+self.selectedState];
+    if (self.delegate && [self.delegate respondsToSelector:@selector(praiseButton:didSelected:)]) {
+        [self.delegate praiseButton:self didSelected:self.selectedState];
+    }
     //动画设置
     CGPoint center = CGPointMake(self.width*0.5, self.height*0.5);
     PraiseImageView * praiseImageView = [[PraiseImageView alloc] init];

@@ -7,8 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+@class PraiseButton;
 @interface PraiseImageView : UIImageView
 @end
+@protocol PraiseDelegate <NSObject>
+- (void)praiseButton:(PraiseButton *)praise didSelected:(BOOL)state;
+@end
 @interface PraiseButton : UIView
-- (instancetype)initWithFrame:(CGRect)frame normalImage:(UIImage *)norImage selectedImage:(UIImage *)selImage defaultCount:(NSInteger)defCount;
+@property (nonatomic,assign) id <PraiseDelegate> delegate;
+- (instancetype)initWithFrame:(CGRect)frame normalImage:(UIImage *)norImage selectedImage:(UIImage *)selImage defaultCount:(NSInteger)defCount defaultSelected:(BOOL)state;
 @end

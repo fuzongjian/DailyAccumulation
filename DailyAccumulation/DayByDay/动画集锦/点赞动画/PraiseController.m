@@ -8,7 +8,7 @@
 
 #import "PraiseController.h"
 #import "PraiseButton.h"
-@interface PraiseController ()
+@interface PraiseController ()<PraiseDelegate>
 
 @end
 
@@ -17,12 +17,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    PraiseButton * praiseButtuon = [[PraiseButton alloc] initWithFrame:CGRectMake(100, 400, 70, 30) normalImage:[UIImage imageNamed:@"ZanFiger0"] selectedImage:[UIImage imageNamed:@"ZanFiger0"] defaultCount:10];
+    PraiseButton * praiseButtuon = [[PraiseButton alloc] initWithFrame:CGRectMake(100, 400, 70, 30) normalImage:[UIImage imageNamed:@"ZanFiger0"] selectedImage:[UIImage imageNamed:@"ZanFiger0"] defaultCount:10 defaultSelected:NO];
+    praiseButtuon.delegate = self;
     [self.view addSubview:praiseButtuon];
-    
-    // Do any additional setup after loading the view.
 }
-
+- (void)praiseButton:(PraiseButton *)praise didSelected:(BOOL)state{
+    NSLog(@"点赞状态%d",state);
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

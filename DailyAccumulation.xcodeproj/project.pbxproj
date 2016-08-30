@@ -43,6 +43,11 @@
 		9B8F96DC1D702F40008C5024 /* weakStrongModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8F96C51D702F40008C5024 /* weakStrongModel.m */; };
 		9B8F96E01D703955008C5024 /* PraiseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8F96DF1D703955008C5024 /* PraiseController.m */; };
 		9B8F96E61D703B7A008C5024 /* PraiseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8F96E51D703B7A008C5024 /* PraiseButton.m */; };
+		9B8F97171D751021008C5024 /* ChartRootController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8F97161D751021008C5024 /* ChartRootController.m */; };
+		9B8F97191D7510F5008C5024 /* chart.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9B8F97181D7510F5008C5024 /* chart.plist */; };
+		9B8F971D1D7513BB008C5024 /* RunningLineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8F971C1D7513BB008C5024 /* RunningLineController.m */; };
+		9B8F97231D751568008C5024 /* CommonChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8F97221D751568008C5024 /* CommonChart.m */; };
+		9B8F97261D751C2A008C5024 /* LineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8F97251D751C2A008C5024 /* LineChart.m */; };
 		9BF364EE1D62B20A008B290D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF364ED1D62B20A008B290D /* main.m */; };
 		9BF364F11D62B20A008B290D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF364F01D62B20A008B290D /* AppDelegate.m */; };
 		9BF364F71D62B20A008B290D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BF364F51D62B20A008B290D /* Main.storyboard */; };
@@ -140,6 +145,15 @@
 		9B8F96DF1D703955008C5024 /* PraiseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PraiseController.m; sourceTree = "<group>"; };
 		9B8F96E41D703B7A008C5024 /* PraiseButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PraiseButton.h; sourceTree = "<group>"; };
 		9B8F96E51D703B7A008C5024 /* PraiseButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PraiseButton.m; sourceTree = "<group>"; };
+		9B8F97151D751021008C5024 /* ChartRootController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartRootController.h; sourceTree = "<group>"; };
+		9B8F97161D751021008C5024 /* ChartRootController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartRootController.m; sourceTree = "<group>"; };
+		9B8F97181D7510F5008C5024 /* chart.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = chart.plist; sourceTree = "<group>"; };
+		9B8F971B1D7513BB008C5024 /* RunningLineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunningLineController.h; sourceTree = "<group>"; };
+		9B8F971C1D7513BB008C5024 /* RunningLineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunningLineController.m; sourceTree = "<group>"; };
+		9B8F97211D751568008C5024 /* CommonChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonChart.h; sourceTree = "<group>"; };
+		9B8F97221D751568008C5024 /* CommonChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonChart.m; sourceTree = "<group>"; };
+		9B8F97241D751C2A008C5024 /* LineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineChart.h; sourceTree = "<group>"; };
+		9B8F97251D751C2A008C5024 /* LineChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineChart.m; sourceTree = "<group>"; };
 		9BF364E91D62B20A008B290D /* DailyAccumulation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyAccumulation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BF364ED1D62B20A008B290D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9BF364EF1D62B20A008B290D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -396,6 +410,30 @@
 			path = "点赞动画";
 			sourceTree = "<group>";
 		};
+		9B8F97141D750FF1008C5024 /* 图表集锦 */ = {
+			isa = PBXGroup;
+			children = (
+				9B8F97151D751021008C5024 /* ChartRootController.h */,
+				9B8F97161D751021008C5024 /* ChartRootController.m */,
+				9B8F97211D751568008C5024 /* CommonChart.h */,
+				9B8F97221D751568008C5024 /* CommonChart.m */,
+				9B8F971A1D751392008C5024 /* 动态折线图 */,
+			);
+			name = "图表集锦";
+			path = "图标集锦";
+			sourceTree = "<group>";
+		};
+		9B8F971A1D751392008C5024 /* 动态折线图 */ = {
+			isa = PBXGroup;
+			children = (
+				9B8F971B1D7513BB008C5024 /* RunningLineController.h */,
+				9B8F971C1D7513BB008C5024 /* RunningLineController.m */,
+				9B8F97241D751C2A008C5024 /* LineChart.h */,
+				9B8F97251D751C2A008C5024 /* LineChart.m */,
+			);
+			path = "动态折线图";
+			sourceTree = "<group>";
+		};
 		9BF364E01D62B20A008B290D = {
 			isa = PBXGroup;
 			children = (
@@ -489,6 +527,7 @@
 			children = (
 				9B8F967D1D6FC615008C5024 /* 常见功能集锦 */,
 				9B8F96791D6FC52A008C5024 /* 动画集锦 */,
+				9B8F97141D750FF1008C5024 /* 图表集锦 */,
 			);
 			path = DayByDay;
 			sourceTree = "<group>";
@@ -504,9 +543,10 @@
 			isa = PBXGroup;
 			children = (
 				9B8F96281D6ED7CF008C5024 /* Xcode快捷键.h */,
+				9B8F96881D702CE8008C5024 /* category.plist */,
 				9B8F96331D6EE976008C5024 /* common.plist */,
 				9B8F96761D6FC4B9008C5024 /* animation.plist */,
-				9B8F96881D702CE8008C5024 /* category.plist */,
+				9B8F97181D7510F5008C5024 /* chart.plist */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -614,6 +654,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B8F97191D7510F5008C5024 /* chart.plist in Resources */,
 				9B8F96D41D702F40008C5024 /* WawaTC-Regular.otf in Resources */,
 				9BF364FC1D62B20A008B290D /* LaunchScreen.storyboard in Resources */,
 				9B8F96D51D702F40008C5024 /* YuppySC-Regular.otf in Resources */,
@@ -654,6 +695,7 @@
 				9BF364F11D62B20A008B290D /* AppDelegate.m in Sources */,
 				9BF364EE1D62B20A008B290D /* main.m in Sources */,
 				9B8F96271D6ED51F008C5024 /* UIView+Extension.m in Sources */,
+				9B8F971D1D7513BB008C5024 /* RunningLineController.m in Sources */,
 				9B8F96811D6FC8A9008C5024 /* WeiboPopController.m in Sources */,
 				9B8F96D61D702F40008C5024 /* UINavigationController+PopPresent.m in Sources */,
 				9B8F96C71D702F40008C5024 /* PasswordView.m in Sources */,
@@ -662,9 +704,11 @@
 				9B8F96E61D703B7A008C5024 /* PraiseButton.m in Sources */,
 				9B8F96C81D702F40008C5024 /* CornerRadiusController.m in Sources */,
 				9B8F96DB1D702F40008C5024 /* weakStrongController.m in Sources */,
+				9B8F97171D751021008C5024 /* ChartRootController.m in Sources */,
 				9B8F962B1D6EE10F008C5024 /* UIImageView+Extension.m in Sources */,
 				9BF3652C1D62B322008B290D /* RootViewController.m in Sources */,
 				9B8F96CF1D702F40008C5024 /* AreaPickerController.m in Sources */,
+				9B8F97231D751568008C5024 /* CommonChart.m in Sources */,
 				9B8F95C91D6BF259008C5024 /* CommonManager.m in Sources */,
 				9B8F96D81D702F40008C5024 /* PopPresentController.m in Sources */,
 				9B8F962E1D6EE1AA008C5024 /* UIImage+Extension.m in Sources */,
@@ -674,6 +718,7 @@
 				9B8F967C1D6FC54E008C5024 /* AnimationController.m in Sources */,
 				9B8F96DA1D702F40008C5024 /* TextViewPlaceholder.m in Sources */,
 				9B8F96C91D702F40008C5024 /* AdvertScrollView.m in Sources */,
+				9B8F97261D751C2A008C5024 /* LineChart.m in Sources */,
 				9B8F96D71D702F40008C5024 /* UIViewController+PopPresent.m in Sources */,
 				9BF365231D62B28E008B290D /* SuperViewController.m in Sources */,
 				9B8F96CD1D702F40008C5024 /* BlurryController.m in Sources */,
