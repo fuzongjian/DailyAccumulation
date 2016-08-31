@@ -17,7 +17,7 @@
 }
 - (void)configCornerRadiusControllerUI{
     [self.view addSubview:self.bgImageView];
-    self.bgImageView.image = [self.bgImageView.image imageCornerRadius:0 andSize:self.bgImageView.bounds.size];
+    self.bgImageView.image = [self.bgImageView.image imageCornerRadius:5 andSize:self.bgImageView.bounds.size];
 }
 - (UIImageView *)bgImageView{
     if (_bgImageView == nil) {
