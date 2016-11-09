@@ -48,6 +48,10 @@
 		9B8F971D1D7513BB008C5024 /* RunningLineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8F971C1D7513BB008C5024 /* RunningLineController.m */; };
 		9B8F97231D751568008C5024 /* CommonChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8F97221D751568008C5024 /* CommonChart.m */; };
 		9B8F97261D751C2A008C5024 /* LineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8F97251D751C2A008C5024 /* LineChart.m */; };
+		9B8F972A1D790C68008C5024 /* PieChartController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8F97291D790C68008C5024 /* PieChartController.m */; };
+		9B8F972D1D790CD5008C5024 /* PieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8F972C1D790CD5008C5024 /* PieChart.m */; };
+		9BBFE2341DD306D000C84A40 /* CountdownController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BBFE2331DD306D000C84A40 /* CountdownController.m */; };
+		9BBFE2371DD3074C00C84A40 /* CountdownView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BBFE2361DD3074C00C84A40 /* CountdownView.m */; };
 		9BF364EE1D62B20A008B290D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF364ED1D62B20A008B290D /* main.m */; };
 		9BF364F11D62B20A008B290D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF364F01D62B20A008B290D /* AppDelegate.m */; };
 		9BF364F71D62B20A008B290D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BF364F51D62B20A008B290D /* Main.storyboard */; };
@@ -57,6 +61,9 @@
 		9BF365121D62B20A008B290D /* DailyAccumulationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF365111D62B20A008B290D /* DailyAccumulationUITests.m */; };
 		9BF365231D62B28E008B290D /* SuperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF365221D62B28E008B290D /* SuperViewController.m */; };
 		9BF3652C1D62B322008B290D /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF3652B1D62B322008B290D /* RootViewController.m */; };
+		9BF6BA921D90CF950076870A /* HeartBeatController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF6BA911D90CF950076870A /* HeartBeatController.m */; };
+		9BF6BA971D90DBA40076870A /* QQViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF6BA961D90DBA40076870A /* QQViewController.m */; };
+		9BF6BA9A1D90DBE90076870A /* BageValueButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF6BA991D90DBE90076870A /* BageValueButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -154,6 +161,14 @@
 		9B8F97221D751568008C5024 /* CommonChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonChart.m; sourceTree = "<group>"; };
 		9B8F97241D751C2A008C5024 /* LineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineChart.h; sourceTree = "<group>"; };
 		9B8F97251D751C2A008C5024 /* LineChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineChart.m; sourceTree = "<group>"; };
+		9B8F97281D790C68008C5024 /* PieChartController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieChartController.h; sourceTree = "<group>"; };
+		9B8F97291D790C68008C5024 /* PieChartController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieChartController.m; sourceTree = "<group>"; };
+		9B8F972B1D790CD5008C5024 /* PieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieChart.h; sourceTree = "<group>"; };
+		9B8F972C1D790CD5008C5024 /* PieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieChart.m; sourceTree = "<group>"; };
+		9BBFE2321DD306D000C84A40 /* CountdownController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountdownController.h; sourceTree = "<group>"; };
+		9BBFE2331DD306D000C84A40 /* CountdownController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountdownController.m; sourceTree = "<group>"; };
+		9BBFE2351DD3074C00C84A40 /* CountdownView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountdownView.h; sourceTree = "<group>"; };
+		9BBFE2361DD3074C00C84A40 /* CountdownView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountdownView.m; sourceTree = "<group>"; };
 		9BF364E91D62B20A008B290D /* DailyAccumulation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyAccumulation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BF364ED1D62B20A008B290D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9BF364EF1D62B20A008B290D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -173,6 +188,12 @@
 		9BF3652A1D62B322008B290D /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		9BF3652B1D62B322008B290D /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		9BF3652D1D62B35B008B290D /* DailyAccumulation.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DailyAccumulation.pch; sourceTree = "<group>"; };
+		9BF6BA901D90CF950076870A /* HeartBeatController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeartBeatController.h; sourceTree = "<group>"; };
+		9BF6BA911D90CF950076870A /* HeartBeatController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeartBeatController.m; sourceTree = "<group>"; };
+		9BF6BA951D90DBA40076870A /* QQViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQViewController.h; sourceTree = "<group>"; };
+		9BF6BA961D90DBA40076870A /* QQViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQViewController.m; sourceTree = "<group>"; };
+		9BF6BA981D90DBE90076870A /* BageValueButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BageValueButton.h; sourceTree = "<group>"; };
+		9BF6BA991D90DBE90076870A /* BageValueButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BageValueButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,8 +239,11 @@
 			children = (
 				9B8F967A1D6FC54E008C5024 /* AnimationController.h */,
 				9B8F967B1D6FC54E008C5024 /* AnimationController.m */,
+				9BF6BA941D90DB8F0076870A /* QQ消息圆点 */,
+				9BF6BA8F1D90CF5C0076870A /* 心跳 */,
 				9B8F967E1D6FC87F008C5024 /* 发微博弹出视图 */,
 				9B8F96DD1D703943008C5024 /* 点赞动画 */,
+				9BBFE2311DD306AB00C84A40 /* 倒计时动画 */,
 			);
 			path = "动画集锦";
 			sourceTree = "<group>";
@@ -418,6 +442,7 @@
 				9B8F97211D751568008C5024 /* CommonChart.h */,
 				9B8F97221D751568008C5024 /* CommonChart.m */,
 				9B8F971A1D751392008C5024 /* 动态折线图 */,
+				9B8F97271D790C25008C5024 /* 饼状图 */,
 			);
 			name = "图表集锦";
 			path = "图标集锦";
@@ -432,6 +457,28 @@
 				9B8F97251D751C2A008C5024 /* LineChart.m */,
 			);
 			path = "动态折线图";
+			sourceTree = "<group>";
+		};
+		9B8F97271D790C25008C5024 /* 饼状图 */ = {
+			isa = PBXGroup;
+			children = (
+				9B8F97281D790C68008C5024 /* PieChartController.h */,
+				9B8F97291D790C68008C5024 /* PieChartController.m */,
+				9B8F972B1D790CD5008C5024 /* PieChart.h */,
+				9B8F972C1D790CD5008C5024 /* PieChart.m */,
+			);
+			path = "饼状图";
+			sourceTree = "<group>";
+		};
+		9BBFE2311DD306AB00C84A40 /* 倒计时动画 */ = {
+			isa = PBXGroup;
+			children = (
+				9BBFE2321DD306D000C84A40 /* CountdownController.h */,
+				9BBFE2331DD306D000C84A40 /* CountdownController.m */,
+				9BBFE2351DD3074C00C84A40 /* CountdownView.h */,
+				9BBFE2361DD3074C00C84A40 /* CountdownView.m */,
+			);
+			path = "倒计时动画";
 			sourceTree = "<group>";
 		};
 		9BF364E01D62B20A008B290D = {
@@ -549,6 +596,26 @@
 				9B8F97181D7510F5008C5024 /* chart.plist */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		9BF6BA8F1D90CF5C0076870A /* 心跳 */ = {
+			isa = PBXGroup;
+			children = (
+				9BF6BA901D90CF950076870A /* HeartBeatController.h */,
+				9BF6BA911D90CF950076870A /* HeartBeatController.m */,
+			);
+			path = "心跳";
+			sourceTree = "<group>";
+		};
+		9BF6BA941D90DB8F0076870A /* QQ消息圆点 */ = {
+			isa = PBXGroup;
+			children = (
+				9BF6BA951D90DBA40076870A /* QQViewController.h */,
+				9BF6BA961D90DBA40076870A /* QQViewController.m */,
+				9BF6BA981D90DBE90076870A /* BageValueButton.h */,
+				9BF6BA991D90DBE90076870A /* BageValueButton.m */,
+			);
+			path = "QQ消息圆点";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -693,9 +760,12 @@
 				9B8F96CB1D702F40008C5024 /* BoxView.m in Sources */,
 				9B8F968C1D702D96008C5024 /* CommonController.m in Sources */,
 				9BF364F11D62B20A008B290D /* AppDelegate.m in Sources */,
+				9BF6BA921D90CF950076870A /* HeartBeatController.m in Sources */,
 				9BF364EE1D62B20A008B290D /* main.m in Sources */,
 				9B8F96271D6ED51F008C5024 /* UIView+Extension.m in Sources */,
 				9B8F971D1D7513BB008C5024 /* RunningLineController.m in Sources */,
+				9B8F972A1D790C68008C5024 /* PieChartController.m in Sources */,
+				9BF6BA971D90DBA40076870A /* QQViewController.m in Sources */,
 				9B8F96811D6FC8A9008C5024 /* WeiboPopController.m in Sources */,
 				9B8F96D61D702F40008C5024 /* UINavigationController+PopPresent.m in Sources */,
 				9B8F96C71D702F40008C5024 /* PasswordView.m in Sources */,
@@ -704,6 +774,7 @@
 				9B8F96E61D703B7A008C5024 /* PraiseButton.m in Sources */,
 				9B8F96C81D702F40008C5024 /* CornerRadiusController.m in Sources */,
 				9B8F96DB1D702F40008C5024 /* weakStrongController.m in Sources */,
+				9BBFE2371DD3074C00C84A40 /* CountdownView.m in Sources */,
 				9B8F97171D751021008C5024 /* ChartRootController.m in Sources */,
 				9B8F962B1D6EE10F008C5024 /* UIImageView+Extension.m in Sources */,
 				9BF3652C1D62B322008B290D /* RootViewController.m in Sources */,
@@ -712,11 +783,14 @@
 				9B8F95C91D6BF259008C5024 /* CommonManager.m in Sources */,
 				9B8F96D81D702F40008C5024 /* PopPresentController.m in Sources */,
 				9B8F962E1D6EE1AA008C5024 /* UIImage+Extension.m in Sources */,
+				9BBFE2341DD306D000C84A40 /* CountdownController.m in Sources */,
+				9BF6BA9A1D90DBE90076870A /* BageValueButton.m in Sources */,
 				9B8F96C61D702F40008C5024 /* PasswordController.m in Sources */,
 				9B8F96CA1D702F40008C5024 /* CarouselAdvertController.m in Sources */,
 				9B8F96E01D703955008C5024 /* PraiseController.m in Sources */,
 				9B8F967C1D6FC54E008C5024 /* AnimationController.m in Sources */,
 				9B8F96DA1D702F40008C5024 /* TextViewPlaceholder.m in Sources */,
+				9B8F972D1D790CD5008C5024 /* PieChart.m in Sources */,
 				9B8F96C91D702F40008C5024 /* AdvertScrollView.m in Sources */,
 				9B8F97261D751C2A008C5024 /* LineChart.m in Sources */,
 				9B8F96D71D702F40008C5024 /* UIViewController+PopPresent.m in Sources */,

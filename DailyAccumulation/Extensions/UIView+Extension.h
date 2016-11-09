@@ -24,4 +24,6 @@
 @property (nonatomic,assign) CGFloat bottom;
 /**相当于left＋width属性*/
 @property (nonatomic,assign) CGFloat right;
+/**自定义高性能圆角*/
+@property (nonatomic,assign) CGFloat  customRadius;
 @end

@@ -104,5 +104,11 @@
     newframe.origin.x += delta ;
     self.frame = newframe;
 }
-
+- (void)setCustomRadius:(CGFloat)customRadius{
+    UIBezierPath * maskPath = [UIBezierPath bezierPathWithRoundedRect:self.bounds byRoundingCorners:UIRectCornerAllCorners cornerRadii:CGSizeMake(customRadius, customRadius)];
+    CAShapeLayer * maskLayer = [CAShapeLayer layer];
+    maskLayer.frame = self.bounds;
+    maskLayer.path = maskPath.CGPath;
+    self.layer.mask = maskLayer;
+}
 @end

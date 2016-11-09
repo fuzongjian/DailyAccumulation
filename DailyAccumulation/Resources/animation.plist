@@ -4,6 +4,12 @@
 <array>
 	<dict>
 		<key>title</key>
+		<string>心跳</string>
+		<key>name</key>
+		<string>HeartBeatController</string>
+	</dict>
+	<dict>
+		<key>title</key>
 		<string>发微博弹出视图</string>
 		<key>name</key>
 		<string>WeiboPopController</string>
@@ -13,6 +19,18 @@
 		<string>点赞动画</string>
 		<key>name</key>
 		<string>PraiseController</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>QQ消息圆点</string>
+		<key>name</key>
+		<string>QQViewController</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>倒计时</string>
+		<key>name</key>
+		<string>CountdownController</string>
 	</dict>
 </array>
 </plist>

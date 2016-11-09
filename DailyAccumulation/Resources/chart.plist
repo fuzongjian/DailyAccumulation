@@ -8,5 +8,11 @@
 		<key>title</key>
 		<string>动态折线图</string>
 	</dict>
+	<dict>
+		<key>name</key>
+		<string>PieChartController</string>
+		<key>title</key>
+		<string>饼状图</string>
+	</dict>
 </array>
 </plist>

@@ -19,7 +19,7 @@
     [self testOne];
     NSArray * items = @[@"一象限",@"一二象限",@"一四象限",@"全象限"];
     UISegmentedControl * segment = [[UISegmentedControl alloc] initWithItems:items];
-    segment.frame = CGRectMake(10, 70, SCREEN_WIDTH - 20, 40);
+    segment.frame = CGRectMake(10, 70, SCREEN_WIDTH - 20, 35);
     segment.selectedSegmentIndex = 0;
     [segment addTarget:self action:@selector(segmentClicked:) forControlEvents:UIControlEventValueChanged];
     [self.view addSubview:segment];
